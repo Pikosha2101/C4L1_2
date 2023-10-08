@@ -1,3 +1,5 @@
 package com.example.laba12
 
-data class User(var name: String, var age: String)
+import androidx.databinding.ObservableField
+
+data class User(var name: ObservableField<String>, var age: ObservableField<String>)
